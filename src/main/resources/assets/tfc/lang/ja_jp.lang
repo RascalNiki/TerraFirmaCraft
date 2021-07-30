@@ -4793,7 +4793,7 @@ tfc.animal.muskoxtfc.female=ジャッカル♀
 tfc.animal.yaktfc.female=ヤク♀
 tfc.animal.blackbeartfc.female=クロクマ♀
 tfc.animal.cougartfc.female=ピューマ♀
-tfc.animal.coyotetfc.female=コヨーテ
+tfc.animal.coyotetfc.female=コヨーテ♀
 
 # Sound Events
 tfc.item.ceramicbreak=Ceramic item breaks
