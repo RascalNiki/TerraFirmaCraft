@@ -1,10 +1,10 @@
 # Command
-tfc.command.timetfc.usage=/timetfc <add|query|set> [args...]
-tfc.command.timetfc.usage_expected_first_argument=Expected <add|query|set> after /timetfc
-tfc.command.timetfc.usage_expected_second_argument_query=Expected [daytime|day|gametime|playerticks|calendarticks] after /timetfc query
-tfc.command.timetfc.usage_expected_second_argument_set=Expected [<ticks>|day|night|monthlength <value>] after /timetfc set
-tfc.command.timetfc.usage_expected_second_argument_add=Expected [days|months|years] <value> after /timetfc add
-tfc.command.timetfc.set_month_length=Set Month Length to %d days.
+tfc.command.timetfc.usage=/timetfc <add|query|set> [引数...]
+tfc.command.timetfc.usage_expected_first_argument=/timetfc の後に <add|query|set> が必要です
+tfc.command.timetfc.usage_expected_second_argument_query=/timetfc query の後に [daytime|day|gametime|playerticks|calendarticks] が必要です
+tfc.command.timetfc.usage_expected_second_argument_set=/timetfc set の後に [<ティック>|day|night|monthlength <値>] が必要です
+tfc.command.timetfc.usage_expected_second_argument_add=/timetfc add の後に [days|months|years] <値> が必要です
+tfc.command.timetfc.set_month_length=月の長さを %d 日に設定しました。
 tfc.command.timetfc.set_day=Time set to the next daylight
 tfc.command.timetfc.set_night=Time set to the next nighttime
 tfc.command.timetfc.set_ticks=Day time set to %d
@@ -22,7 +22,7 @@ tfc.command.timetfc.set_calendar_time=Set Calendar Time to %s.
 
 tfc.command.time.disabled=This command has been disabled by TFC. Use /timetfc instead!
 
-tfc.command.playertfc.usage=/playertfc <get|set|add|reset> [nutrition|food|saturation|water|skill <name>] [value]
+tfc.command.playertfc.usage=/playertfc <get|set|add|reset> [nutrition|food|saturation|water|skill <名前>] [値]
 tfc.command.playertfc.usage_expected_first_argument=Expected <get|set|add|reset> after /playertfc
 tfc.command.playertfc.usage_expected_second_argument=Expected [nutrition|food|saturation|water|skill <name>] after /playertfc %s
 tfc.command.playertfc.usage_expected_id=Expected <name> after /playertfc %s
