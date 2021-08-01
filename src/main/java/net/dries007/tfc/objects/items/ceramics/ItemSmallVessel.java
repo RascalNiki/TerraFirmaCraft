@@ -437,12 +437,13 @@ public class ItemSmallVessel extends ItemPottery
         @Nonnull
         public ItemStack extractItem(int slot, int amount, boolean simulate)
         {
-            IFood cap = getStackInSlot(slot).getCapability(CapabilityFood.CAPABILITY, null);
+            ItemStack stack = super.extractItem(slot, amount, simulate).copy();
+            IFood cap = stack.getCapability(CapabilityFood.CAPABILITY, null);
             if (cap != null)
             {
                 CapabilityFood.removeTrait(cap, FoodTrait.PRESERVED);
             }
-            return super.extractItem(slot, amount, simulate);
+            return stack;
         }
 
         @Override

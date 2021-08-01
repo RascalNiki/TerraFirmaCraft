@@ -512,6 +512,8 @@ config.tfc.general.world.enableLooseOres.tooltip=Enable generation of loose ores
 config.tfc.general.world.enableLooseSticks=Enable Loose Rocks
 config.tfc.general.world.enableLooseSticks.tooltip=Enable generation of loose sticks?
 
+config.tfc.general.world_regen.minRegenTps=Minimum Regeneration TPS
+config.tfc.general.world_regen.minRegenTps.tooltip=Minimum server TPS to trigger spring regeneration of surface debris
 
 config.tfc.general.world.sticksDensityModifier=Stick Density Modifier
 config.tfc.general.world.sticksDensityModifier.tooltip=This controls the number of sticks generated on chunk generation. The number of trees in the area and flora density is also a factor in this.
@@ -796,6 +798,16 @@ config.tfc.devices.jug.dumpWaterOnShiftRightClick.tooltip=Enable Shift-Right cli
 ## Gold Pan
 config.tfc.devices.gold_pan.cooldownTicks=Cooldown Ticks
 config.tfc.devices.gold_pan.cooldownTicks.tooltip=Cooldown ticks after panning.
+
+
+## Bellows
+config.tfc.devices.bellows=Bellows
+
+config.tfc.devices.bellows.maxTicks=Max Air Ticks
+config.tfc.devices.bellows.maxTicks.tooltip=The max number of air ticks, devices get a temperature bonus up to this amount. (1000 = 1 in game hour = 50 seconds), default is 600 ticks.
+
+config.tfc.devices.bellows.ticks=Added Air Ticks
+config.tfc.devices.bellows.ticks.tooltip=Amount of air ticks given to the connected devices. (1000 = 1 in game hour = 50 seconds), default is 200 ticks.
 
 
 ## Clients

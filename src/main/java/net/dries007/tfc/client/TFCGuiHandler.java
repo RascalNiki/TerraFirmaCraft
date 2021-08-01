@@ -118,7 +118,10 @@ public class TFCGuiHandler implements IGuiHandler
                 if (world.getBlockState(pos).getBlock() instanceof BlockChestTFC)
                 {
                     ILockableContainer chestContainer = ((BlockChestTFC) world.getBlockState(pos).getBlock()).getLockableContainer(world, pos);
-                    //noinspection ConstantConditions
+                    if (chestContainer == null) // This is null if the chest is blocked
+                    {
+                        return null;
+                    }
                     return new ContainerChestTFC(player.inventory, chestContainer, player);
                 }
                 return null;
