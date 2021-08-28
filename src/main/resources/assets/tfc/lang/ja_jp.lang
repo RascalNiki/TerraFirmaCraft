@@ -1058,11 +1058,11 @@ tfc.enum.size.very_large=Very Large
 tfc.enum.size.huge=Huge
 
 ## Weight
-tfc.enum.weight.very_light=Very Light
-tfc.enum.weight.light=Light
-tfc.enum.weight.medium=Medium
-tfc.enum.weight.heavy=Heavy
-tfc.enum.weight.very_heavy=Very Heavy
+tfc.enum.weight.very_light=とても軽い
+tfc.enum.weight.light=軽い
+tfc.enum.weight.medium=普通
+tfc.enum.weight.heavy=重い
+tfc.enum.weight.very_heavy=とても重い
 
 ## Heat
 tfc.enum.heat.warming=Warming
@@ -1668,7 +1668,7 @@ tile.tfc.farmland.schist.name=片岩の耕地
 tile.tfc.farmland.gneiss.name=片麻岩の耕地
 tile.tfc.farmland.marble.name=大理石の耕地
 
-tile.tfc.stairs.smooth.granite.name=Smooth Granite Stairs
+tile.tfc.stairs.smooth.granite.name=滑らかな花崗岩の階段
 tile.tfc.stairs.smooth.diorite.name=Smooth Diorite Stairs
 tile.tfc.stairs.smooth.gabbro.name=Smooth Gabbro Stairs
 tile.tfc.stairs.smooth.shale.name=Smooth Shale Stairs
@@ -4904,8 +4904,8 @@ tfc.animal.mongoose.say=Mongoose grunts
 tfc.animal.mongoose.hurt=Mongoose hurts
 tfc.animal.mongoose.death=Mongoose dies
 tfc.animal.feline.step=Feline walks
-tfc.animal.cricket=Crickets
-tfc.animal.frog=Frogs
+tfc.animal.cricket=コオロギ
+tfc.animal.frog=カエル
 
 ## Advancements
 
@@ -4938,12 +4938,12 @@ advancements.tfc.main.get_unknown.description=Get an Unknown Ingot from a botche
 advancements.tfc.main.metal_casting.title=Pouring Metal
 advancements.tfc.main.metal_casting.description=Craft a fired mold with which to cast a metal tool.
 # Copper and Bronze Ages
-advancements.tfc.main.copper_age.title=The Copper Age
+advancements.tfc.main.copper_age.title=銅器時代
 advancements.tfc.main.copper_age.description=Enter the Copper Age by making a copper tool.
-advancements.tfc.main.mining.title=Time to Mine (Finally!)
-advancements.tfc.main.mining.description=Craft a pickaxe.
-advancements.tfc.main.carpentry.title=Carpenter
-advancements.tfc.main.carpentry.description=Craft a saw.
+advancements.tfc.main.mining.title=いざ採掘（やっと！）
+advancements.tfc.main.mining.description=ツルハシをクラフトする。
+advancements.tfc.main.carpentry.title=大工
+advancements.tfc.main.carpentry.description=ノコギリをクラフトする。
 advancements.tfc.main.make_barrel.title=Do a Barrel Roll!
 advancements.tfc.main.make_barrel.description=Craft a barrel using lumber made with your saw.
 advancements.tfc.main.make_quern.title=The Grind
@@ -4962,30 +4962,30 @@ advancements.tfc.main.make_leather.title=Genuine Leather
 advancements.tfc.main.make_leather.description=Soak a scraped hide in fresh water and then in tannin.
 advancements.tfc.main.make_bellows.title=Blow You Away
 advancements.tfc.main.make_bellows.description=Use leather to make a bellows.
-advancements.tfc.main.bronze_age.title=The Bronze Age
+advancements.tfc.main.bronze_age.title=青銅器時代
 advancements.tfc.main.bronze_age.description=Enter the Bronze Age by crafting any Bronze Anvil.
 # Iron Age
 advancements.tfc.main.make_bloomery.title=Ironworks
 advancements.tfc.main.make_bloomery.description=Craft a Bloomery.
 advancements.tfc.main.iron_bloom.title=In Bloom
 advancements.tfc.main.iron_bloom.description=Use the bloomery to produce an iron bloom.
-advancements.tfc.main.iron_age.title=The Iron Age
+advancements.tfc.main.iron_age.title=鉄器時代
 advancements.tfc.main.iron_age.description=Enter the Iron Age getting a wrought iron ingot.
-advancements.tfc.main.iron_armor.title=Knight in Shining Armor
-advancements.tfc.main.iron_armor.description=Equip a full iron armor set.
+advancements.tfc.main.iron_armor.title=正義の味方
+advancements.tfc.main.iron_armor.description=鉄防具一式を身につける。
 advancements.tfc.main.make_blast_furnace.title=Blast Off!
 advancements.tfc.main.make_blast_furnace.description=Craft a Blast Furnace.
-advancements.tfc.main.make_fire_clay.title=Fireproof
-advancements.tfc.main.make_fire_clay.description=Craft some fire clay.
+advancements.tfc.main.make_fire_clay.title=耐火
+advancements.tfc.main.make_fire_clay.description=耐火粘土をクラフトする。
 advancements.tfc.main.make_fire_bricks.title=Making a Chimney
 advancements.tfc.main.make_fire_bricks.description=Make four fire brick blocks, for building a blast furnace.
 advancements.tfc.main.make_crucible.title=Metallurgic!
 advancements.tfc.main.make_crucible.description=Knap a Crucible from fire clay.
-advancements.tfc.main.get_steel.title=Industrialized
-advancements.tfc.main.get_steel.description=Get a Steel Ingot.
-advancements.tfc.main.flint_and_steel.title=Light My Fire
-advancements.tfc.main.flint_and_steel.description=Craft a Flint and Steel.
-advancements.tfc.main.get_black_steel.title=Back In Black
+advancements.tfc.main.get_steel.title=工業化
+advancements.tfc.main.get_steel.description=鋼インゴットを手に入れる。
+advancements.tfc.main.flint_and_steel.title=ハートに火をつけて
+advancements.tfc.main.flint_and_steel.description=火打石と打ち金をクラフトする。
+advancements.tfc.main.get_black_steel.title=バック・イン・ブラック
 advancements.tfc.main.get_black_steel.description=Get a Black Steel Ingot.
 advancements.tfc.main.get_blue_steel.title=Blue Ogre
 advancements.tfc.main.get_blue_steel.description=Get a Blue Steel Ingot.
@@ -5022,19 +5022,19 @@ advancements.tfc.world.make_loom.title=Loony Loom
 advancements.tfc.world.make_loom.description=Craft a loom with which to turn string into cloth.
 advancements.tfc.world.make_bed.title=Good Night's Rest
 advancements.tfc.world.make_bed.description=Craft a bed using wool or silk cloth made in the loom.
-advancements.tfc.world.hunter.title=Hunter
-advancements.tfc.world.hunter.description=Kill an animal.
+advancements.tfc.world.hunter.title=ハンター
+advancements.tfc.world.hunter.description=動物を倒す。
 advancements.tfc.world.kill_bear.title=Bear in Mind
 advancements.tfc.world.kill_bear.description=Kill a bear.
 # Minerals
-advancements.tfc.world.pick_nugget.title=A Weird Rock
+advancements.tfc.world.pick_nugget.title=奇妙な小石
 advancements.tfc.world.pick_nugget.description=Pick up nugget from the ground.
 advancements.tfc.world.make_propick.title=Prospecting
 advancements.tfc.world.make_propick.description=Craft a prospector's pick.
-advancements.tfc.world.geologist.title=Geologist
+advancements.tfc.world.geologist.title=地質学者
 advancements.tfc.world.geologist.description=Get a rock from every stone type and a specimen from every gem.
-advancements.tfc.world.find_diamonds.title=DIAM- Oh Wait...
-advancements.tfc.world.find_diamonds.description=Find Diamonds.
+advancements.tfc.world.find_diamonds.title=ダイヤモ- いや、待て…
+advancements.tfc.world.find_diamonds.description=ダイヤモンドを見つける。
 advancements.tfc.world.find_coal.title=Carboniferous
 advancements.tfc.world.find_coal.description=Find Bituminous Coal or Lignite.
 advancements.tfc.world.find_graphite.title=Writing Stone
@@ -5045,11 +5045,11 @@ advancements.tfc.world.find_kaolinite.description=Find Kaolinite.
 #advancements.tfc.world.find_sylvite.description=Find Sylvite.
 advancements.tfc.world.find_iron.title=Pretty Ironic
 advancements.tfc.world.find_iron.description=Find Hematite, Limonite or Magnetite Ore.
-advancements.tfc.world.find_gold.title=Gold Rush
-advancements.tfc.world.find_gold.description=Find Native Gold Ore.
+advancements.tfc.world.find_gold.title=ゴールドラッシュ
+advancements.tfc.world.find_gold.description=自然金鉱石を見つける。
 advancements.tfc.world.find_silver.title=Silver Bullet
 advancements.tfc.world.find_silver.description=Find Native Silver Ore.
-advancements.tfc.world.find_nickel.title=Dime and Nickel
+advancements.tfc.world.find_nickel.title=ニッケルを見っける
 advancements.tfc.world.find_nickel.description=Find Garnierite Ore.
 
 # Waila
