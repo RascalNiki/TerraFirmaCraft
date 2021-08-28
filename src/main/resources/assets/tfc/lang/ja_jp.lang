@@ -4597,16 +4597,16 @@ item.tfc.food.rye_bread_sandwich.name=Rye Bread Sandwich
 item.tfc.food.oat_bread_sandwich.name=Oat Bread Sandwich
 item.tfc.food.wheat_bread_sandwich.name=Wheat Bread Sandwich
 item.tfc.food.rice_bread_sandwich.name=Rice Bread Sandwich
-item.tfc.food.soup_grain.name=Wholesome Soup
-item.tfc.food.soup_fruit.name=Tasty Soup
+item.tfc.food.soup_grain.name=健康にいいサラダ
+item.tfc.food.soup_fruit.name=おいしいスープ
 item.tfc.food.soup_vegetable.name=具沢山スープ
-item.tfc.food.soup_meat.name=Hearty Soup
-item.tfc.food.soup_dairy.name=Creamy Soup
-item.tfc.food.salad_grain.name=Crunchy Salad
-item.tfc.food.salad_fruit.name=Sweet Salad
-item.tfc.food.salad_vegetable.name=Healthy Salad
-item.tfc.food.salad_meat.name=Flavorful Salad
-item.tfc.food.salad_dairy.name=Disgusting Salad
+item.tfc.food.soup_meat.name=たっぷりなスープ
+item.tfc.food.soup_dairy.name=クリーミーなスープ
+item.tfc.food.salad_grain.name=サクサクするサラダ
+item.tfc.food.salad_fruit.name=甘いサラダ
+item.tfc.food.salad_vegetable.name=健康的なサラダ
+item.tfc.food.salad_meat.name=味わい深いサラダ
+item.tfc.food.salad_dairy.name=吐き気のするサラダ
 
 item.tfc.crop.seeds.barley.name=大麦の種
 item.tfc.crop.seeds.beet.name=ビートの種
@@ -4650,7 +4650,7 @@ item.tfc.animal.product.wool_yarn.name=Wool Yarn
 item.tfc.animal.product.wool_cloth.name=Wool Cloth
 item.tfc.animal.product.silk_cloth.name=Silk Cloth
 
-item.tfc.quiver.name=Quiver
+item.tfc.quiver.name=矢筒
 
 ## Entities
 
@@ -4696,20 +4696,20 @@ entity.blackbeartfc.name=クロクマ
 entity.cougartfc.name=ピューマ
 entity.coyotetfc.name=コヨーテ
 
-entity.falling_block.name=Falling %s
+entity.falling_block.name=落下中の %s
 
 #TFC death messages
-death.attack.dehydration=%1$s died of dehydration
-death.attack.food_poison=%1$s died of food poisoning
+death.attack.dehydration=%1$s は脱水で死んだ
+death.attack.food_poison=%1$s は食中毒で死んだ
 death.attack.plucking=%1$s died by having it's feathers plucked
 death.attack.grill=%1$s grilled themselves well-done
 death.attack.soup=%1$s made their hand into stew
-death.attack.berrybush=%1$s was pricked to death
+death.attack.berrybush=%1$s は棘が刺さって死んだ
 
 #Effects
-effectsTFC.overburdened=Overburdened
-effectsTFC.thirst=Thirst
-effectsTFC.food_poison=Food Poisoning
+effectsTFC.overburdened=重量超過
+effectsTFC.thirst=渇き
+effectsTFC.food_poison=食中毒
 
 # Animal names by gender
 tfc.animal.sheeptfc.male=ヒツジ♂
